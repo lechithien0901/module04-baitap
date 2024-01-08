@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/ALL/deleteList}" method="POST" th:object="${customer}" novalidate="novalidate">
+<fieldset>
+    <legend>Delete</legend>
+    <table>
+        <tr>
+
+            <td><input type="hidden" th:field="*{id}"></td>
+        </tr>
+        <tr>
+            <td>Name>
+            <td><input type="text" th:field="*{name}"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" th:field="*{email}"></td>
+        </tr>
+        <tr>
+            <td>address</td>
+            <td><input type="text" th:field="*{address}"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Remove"></td>
+        </tr>
+    </table>
+</fieldset>
+</form>
+
+</body>
+</html>
