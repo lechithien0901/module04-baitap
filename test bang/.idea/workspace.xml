@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f851c1df-219f-400b-97c5-ca9bace097e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/java/com/example/demo1/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/java/com/example/demo1/model/ConvertLanguages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/java/com/example/demo1/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/java/com/example/demo1/repository/IRepositoryStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/java/com/example/demo1/repository/RepositoryStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/java/com/example/demo1/service/IServiceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/java/com/example/demo1/service/ServiceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo/demo1/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/java/vn/codegym/demo/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/controller/ControllerProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/repository/IRepositoryProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/repository/RepositoryProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/service/IServiceProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/java/vn/codegym/demo1/service/ServiceProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/webapp/WEB-INF/views/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/webapp/WEB-INF/views/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS05/thuchanh/demo1/demo1/src/main/webapp/WEB-INF/views/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/java/com/example/demo/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/java/com/example/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/java/com/example/demo/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/java/com/example/demo/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/java/com/example/demo/repository/IRepositoryProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/java/com/example/demo/service/IServiceProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/java/com/example/demo/service/ServiceProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/resources/templates/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/bai tap/demo/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/java/com/example/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/java/com/example/demo/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/java/com/example/demo/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/java/com/example/demo/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/java/com/example/demo/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/java/com/example/demo/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/java/com/example/demo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/resources/templates/error.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss010/thuchanhbai10/demo2/src/main/resources/templates/shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/aop/StudentAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/model/CodeGymClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/model/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/repository/codegym_class/ICodegymClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/repository/student/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/service/codegym_class/CodegymClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/service/codegym_class/ICodegymClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/service/student/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/java/com/example/demo/service/student/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/luyentap/demo1/src/main/resources/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/pratice/demo/src/main/java/com/example/demo/model/CodegymClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss06/pratice/demo/src/main/java/com/example/demo/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/model/BlogForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/repostiory/blog/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/repostiory/category/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/service/Blog/IServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/service/Blog/ServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/service/IServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/service/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/service/category/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/java/vn/codegym/demo/service/category/ServiceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/resources/templates/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/resources/templates/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai1/demo/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/controller/ControllerBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/repository/blog/IRepositoryBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/repository/category/IRepositoryCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/service/blog/IServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/service/blog/ServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/service/category/IServiceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/java/com/example/demo/service/category/ServiceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/bai2/demo/src/main/resources/templates/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/controller/ControllerBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/reposiotry/blog/IRepositoryBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/reposiotry/category/IRepositoryCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/service/blog/IServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/service/blog/ServiceBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/service/category/IServiceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/java/com/example/demo/service/category/ServiceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss07/baitap/baitapchinhthuc/demo1/src/main/resources/templates/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/java/com/example/demo/controller/ControllerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/java/com/example/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/java/com/example/demo/model/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/java/com/example/demo/repository/IRepositoryUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/java/com/example/demo/service/IServiceUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/java/com/example/demo/service/ServiceUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/resources/templates/showAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 1/demo1/src/main/resources/templates/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/java/com/example/demo/controller/ControllerMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/java/com/example/demo/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/java/com/example/demo/model/MusicDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/java/com/example/demo/repository/IRepositoryMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/java/com/example/demo/service/IServiceMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/java/com/example/demo/service/ServiceMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/resources/templates/showAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/resources/templates/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/baitap/bai 2/demo/src/main/resources/templates/showUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/controller/ControllerStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/model/CodeGymClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/model/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/repository/codegym_class/IRepositoryCodeGymClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/repository/student/IRepositoryStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/service/codegym_class/ISeviceCodegymClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/service/codegym_class/ServiceCodegymClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/service/student/IServiceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/java/com/example/demo/service/student/ServiceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/resources/templates/showCreate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss08/thuchanh/luyentap/demo/src/main/resources/templates/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/aop/BookAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/model/BorrowerCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/repository/book/IBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/repository/borrower_code/IBorrowerCodeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/service/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/service/book/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/service/borrower_code/BorrowerCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/java/com/example/demo/service/borrower_code/IBorrowerCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/resources/templates/error_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/resources/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapmoi/demo1/src/main/resources/templates/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/aop/BookAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/model/BorrowerCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/repository/book/IBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/repository/borrower_code/IBorrowerCodeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/service/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/service/book/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/service/borrower_code/BorrowerCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/java/com/example/demo/service/borrower_code/IBorrowerCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/resources/templates/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss09/baitapss09/demo/src/main/resources/templates/view.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2cuAxijDyvbAivesDsctHKSP9hn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/modul04-baitap/module04-baitap/test bang",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f851c1df-219f-400b-97c5-ca9bace097e9" name="Changes" comment="" />
+      <created>1708951337639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708951337639</updated>
+      <workItem from="1708951338716" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

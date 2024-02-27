@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <span th:text="${message}"></span>
+</head>
+<body>
+<span><a th:href="@{/all/showList}">Return to the menu</a></span>
+<fieldset>
+    <legend>
+        View Product
+    </legend>
+    <table>
+        <tr>
+            <td>
+                <lable>Author</lable>
+            </td>
+            <td th:text="${blog.auThor}"></td>
+
+        </tr>
+        <tr>
+            <td><label>Tiltle</label></td>
+
+            <td th:text="${blog.title}">></td>
+
+        </tr>
+        <tr>
+            <td><label>Content</label></td>
+
+            <td th:text="${blog.content}">></td>
+
+        </tr>
+        <tr>
+            <td> <label>Img</label></td>
+
+            <td th:text="${blog.img}">></td>
+
+        </tr>
+    </table>
+</fieldset>
+
+
+</body>
+</html>

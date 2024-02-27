@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+<a th:href="@{/all/showAdd}">Add the Blog</a>
+<form th:action="@{/all/find}" method="get">
+    <input type="text" th:name="nameBlog">
+    <input type="submit" value="Tim Kiem">
+</form>
+<table class="table table-hover">
+
+    <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th>Content</th>
+        <th>Img</th>
+        <th>date</th>
+        <th>CategoryName</th>
+    </tr>
+    <tr th:each="s:${list}">
+        <td th:text="${s.author}"></td>
+        <td th:text="${s.title}"></td>
+        <td th:text="${s.content}"></td>
+        <td th:text="${s.img}"></td>
+        <td th:text="${s.date}"></td>
+        <td th:text="${s.getCategory().name}"></td>
+    </tr>
+</table>
+<div class="text-center" th:unless="${list.isEmpty()}">
+    <a th:href="@{/all/find(nameBlog=${nameBlog},page=${list.number -1 })}" th:if="${list.hasPrevious()}">Prev</a>
+    <span th:text="${list.number +1}"></span> / <span th:text="${list.totalPages}"></span>
+    <a th:href="@{/all/find(nameBlog=${nameBlog},page=${list.number +1})}" th:if="${list.hasNext()}">Next</a>
+</div>
+<a th:href="@{/all/showList}">Back to the menu</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

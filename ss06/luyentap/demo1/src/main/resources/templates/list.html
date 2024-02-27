@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<a th:href="@{/all/show-form-create}">Them</a>
+<body>
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>email</th>
+        <th>Class</th>
+        <th>Delete</th>
+    </tr>
+    <tr th:each="s,loop:${list}">
+        <td th:text="${s.id}"></td>
+        <td th:text="${s.name}"></td>
+        <td th:text="${s.email}"></td>
+        <td th:text="${s.getCodeGymClass().name}"></td>
+        <td ><a th:href="@{/all/{id}/delete(id=${s.getId()})}">Delete</a></td>
+        <td ><a th:href="@{/all/{id}/update(id=${s.getId()})}">Update</a></td>
+
+
+    </tr>
+    <!--    Cách 2-->
+    <th:block th:each="i: ${pages}">
+        <a th:href="@{/all/list(page=${i -1 })}"
+           th:text="${i}">Prev</a>
+    </th:block>
+</table>
+<div class="text-center" th:unless="${list.isEmpty()}">
+    <a th:href="@{/all/list(page=${list.number -1})}"
+       th:if="${list.hasPrevious()}">Prev</a>
+    <!--    Cách 1-->
+    <span th:text="${list.number + 1}"></span> / <span th:text="${list.totalPages}">    </span><br>
+
+    <a th:href="@{/all/list(page=${list.number + 1})}"
+       th:if="${list.hasNext()}">Next</a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldset>
+    <legend>add the Menu</legend>
+    <form th:action="@{/all/blogNew}" method="post" th:object="${blog}">
+        <table>
+            <tr>
+                <td>auThor</td>
+                <td><input type="text" th:field="*{auThor}"></td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td><input type="text" th:field="*{title}"></td>
+            </tr>
+            <tr>
+                <td>content</td>
+                <td><input type="text" th:field="*{content}"></td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td><input type="text" th:field="*{img}"></td>
+            </tr>
+
+
+
+            <tr>
+                <select  th:field="*{category}">
+                    <option th:each="v:${listCategory}" th:text="${v.name}" th:value="${v.id}"></option>
+                </select>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Add"></td>
+            </tr>
+
+
+
+        </table>
+    </form>
+</fieldset>
+
+</body>
+</html>

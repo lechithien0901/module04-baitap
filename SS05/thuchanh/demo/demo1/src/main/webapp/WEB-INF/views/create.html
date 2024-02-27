@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/All/add}" th:object="${student} " method="POST">
+    <label>Id</label>
+    <input type="hidden" th:field="*{id}">
+    <label>Name</label>
+    <input type="text" th:field="*{name}">
+    <label>gender</label>
+    <select th:field="*{gender}">
+        <option value="0">Nữ</option>
+        <option value="1">Nam</option>
+    </select>
+    <label>Languages</label>
+    <select th:field="*{languages}" multiple>
+        <option value="Java">Java</option>
+        <option value="C#">C#</option>
+        <option value="JS">JS</option>
+    </select>
+    <input type="submit" value="Send">
+
+</form>
+
+</body>
+</html>
